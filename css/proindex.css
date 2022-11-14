@@ -1,0 +1,90 @@
+/* it is for pro1 html page */
+
+.welcome{
+    margin-top: 10px;
+    margin-left: 460px;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 3.2rem;
+}
+.welcome2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 430px;
+    font-family: cursive;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    
+}
+.welcome2 a{
+    text-decoration: double;
+    color: rgb(250, 145, 34);
+    font-family: cursive;
+    font-size: 1.8rem;
+    
+}
+.procontainer img{
+    margin-top: 10px;
+    margin-left: 300px;
+    height: 50vh;
+    width: 700px;
+    background-color: rgba(244, 247, 249, 0.297);
+    padding: 20px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+/* .procontainer{
+    opacity: 0.2;
+} */
+
+.hold{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.conthold{
+    height: 470px;
+    width: 340px;
+    background-color: rgba(144, 255, 127, 0.829);
+    background-color: rgba(244, 247, 249, 0.623);
+    border-radius: 15px;
+    margin: 40px;
+}
+
+.conthold img{
+    border-radius: 15px;
+    height: 300px ;
+    width:330px ;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+.conthold p{
+    justify-content: center;
+    padding: 15px;
+    padding-top: 5px;
+   font-size: 1em;
+   font-weight:300;
+   font-family: cursive;
+   color: aliceblue;
+   background-color: rgba(33, 76, 104, 0.895);
+}
+.conthold a{
+  text-decoration: none;
+}
+
+footer{
+    background-color: rgba(240, 248, 255, 0.451);
+    font-size: 1.4em;
+    padding: 0px 30px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+}
+.h11{
+    font-family: cursive;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomPcs</title>
+    <link rel="stylesheet" href="./css/pro1.css">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <div class="left">
+                    <img src="img/88.jpg" alt="" id="logo" />
+                    <!-- <div>&nbspGAME ON </div> -->
+                    <h3>PC WORLD</h3>
+                </div>
+            </a>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="./index.html" class="active"> Home</a> </li>
+                <!-- <li> <a href="#" class="active">Laptops</a> </li> -->
+                <li> <a href="./Custompcs.html" class="active">Custom PC's</a> </li>
+                <li> <a href="./Accessories.html" class="active">Prebuilt PC</a> </li>
+                <li> <a href="./contactus.html" class="active">Contact Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- <button class="btn" class="active">CALL US</button> -->
+            <a href="./contactus.html" class="active">
+                <button class="btn" class="active">EMAIL US</button>
+            </a>
+        </div>
+    </header>
+
+    <div class="maincontainer">
+
+    
+    <div class="container1">
+        <h4>Enter the specifications of the system you expect:</h4>
+        <form action="custom.php" method="post">
+            <div class="details">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter your Name" id="name" style="margin-left: 52px;">
+            </div>
+
+            <div class="details">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" placeholder="Enter your Phone Number" id="phone" style="margin-left: 49px;">
+            </div>
+
+            <div class="details">
+                <label for="motherboard">Motherboard</label>
+                <input type="text" name="motherboard" placeholder="Enter your Motherboard Name" id="motherboard"
+                    style="margin-left: 2px;">
+            </div>
+
+            <div class="details">
+                <label for="ram">Ram</label>
+                <input type="text" name="ram" id="ram" placeholder="Enter the Ram size">
+            </div>
+
+            <div class="details">
+                <label for="rom">Rom</label>
+                <input type="text" name="rom" id="rom" placeholder="Enter the Rom size">
+            </div>
+
+            <div class="details">
+                <label for="cpu">CPU</label>
+                <input type="text" name="cpu" id="cpu" placeholder="Enter the CPU config">
+            </div>
+
+            <div class="details">
+                <label for="gpu">GPU</label>
+                <input type="text" name="gpu" id="gpu" placeholder="Enter the GPU config">
+            </div>
+            <div>
+                <button class="btn" id="bttn">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="container2">
+        <img src="./img/customimg1.jpg" alt="" >
+    </div>
+
+    
+</div>
+</body>
+</html>

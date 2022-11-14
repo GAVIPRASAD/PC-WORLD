@@ -1,0 +1,194 @@
+* {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    /* color: aliceblue; */
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/background.jpg');
+
+}
+
+footer{
+    background-color: rgba(240, 248, 255, 0.451);
+    font-size: 1.4em;
+    padding: 0px 30px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+/* Navbar  */
+
+.header {
+    background-color: rgba(12, 57, 156, 0.68);
+    line-height: 20px;
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    left: 20px;
+    top: 9px;
+    color: aliceblue;
+    /* border: 2px solid #8ec50f; */
+    border-radius: 5px;
+
+}
+.left img{
+    border-radius: 15px;
+    
+}
+
+h4 {
+    color: aliceblue;
+}
+
+.left h3 {
+
+    padding-left: 80px;
+    padding-top: 0px;
+    font-size: 32px;
+    margin-top: 13px;
+    font-family: cursive;
+}
+
+.left h3:hover {
+    cursor: pointer;
+}
+
+.left img {
+    float: left;
+    width: 55px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 6px auto;
+    color: aliceblue;
+    /* border: 2px solid #07ffea; */
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 15px;
+    /* border: 2px solid #e70791; */
+    color: aliceblue;
+
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0px 9px;
+    padding: 5px 20px;
+    border: 3px solid rgb(0, 4, 255);
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #ffffff;
+    border: 3px solid rgb(29, 1, 1);
+    color: rgb(6, 34, 192);
+    font-size: 15px;
+    font-family: cursive;
+    text-decoration: underline;
+    border-radius: 60px;
+    padding: 5px 20px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 7px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    background-color: #ffffff;
+    color: rgb(6, 34, 192);
+    font-size: 17px;
+    font-family: cursive;
+    text-decoration: underline;
+    border-radius: 60px;
+    padding: 5px 20px;
+}
+
+/* Configuration form */
+
+label {
+    color: aliceblue;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+  
+}
+.container1 {
+    border: 3px solid rgb(0, 4, 255);
+    margin: 99px 55px;
+    padding: 20px 10px;
+    width: 30%;
+    background-color: rgb(10, 25, 57);
+}
+
+.container2 img{
+    height: 550px;
+    width: 660px;
+    margin-top: 90px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: rgb(176, 219, 253);
+}
+
+.details input {
+    margin: 10px 60px;
+    width: 60%;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    border: 3px solid rgb(0, 4, 255);
+    background-color: rgb(5 30 85 / 68%);
+    color: aliceblue;
+    font-size: 1.03em;
+}
+
+#bttn {
+    /* margin-left: 0px;
+            padding-left: 17px; */
+    margin: 10px auto;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+}
